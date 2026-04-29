@@ -1,8 +1,10 @@
 # How to run app with Docker-compose
 
 ## Install docker compose version (v2)
-    sudo apt update
-    sudo apt install docker-compose-plugin -y
+
+    chmod +x docker_installer.sh
+
+    ./docker_installer.sh
 
 ## Verify installation
 
